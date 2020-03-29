@@ -227,8 +227,35 @@ body{
     margin-bottom: 5%;
 }
 .tabs-content{
-    margin-right:70px;
+    margin-right: 50px;
     display: none;
+}
+.tabs-content-all-actors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tabs-content-actor{
+    display: block;
+    height: 198px;
+    width: 175px;
+}
+.tabs-content-actor-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.tabs-content-actor-name{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.tabs-content-actor-role{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
 }
 .visible{
     display:block;
